@@ -3,7 +3,7 @@
 int main(){
 double lambda,theta,d;
 double m;
-printf("Enter wavwlength (nm):");
+printf("Enter wavelength (nm):");
 scanf("%lf",&lambda);
 if (lambda<380||lambda>750){
 printf("out of the range.please enter a valid number.\n");
